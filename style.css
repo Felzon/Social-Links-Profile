@@ -13,30 +13,62 @@ body {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  border-radius: 9px;
+  border-radius: 10px;
   width: 320px;
-  height: 480px;
+  height: 460px;
   background-color: hsl(0, 0%, 12%);
-  margin-left: 380px;
+  margin-left: 100px;
+  padding-top: 29px;
 }
 
 .jessica-img {
-  width: 75px;
-  height: 75px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   overflow: hidden;
   object-fit: cover; /*this makes the image container circular*/
 }
 
-.jessica-name {
-  color: hsl(0, 0%, 100%);
+.name-location {
+  line-height: 0.4rem;
   text-align: center;
-  font-size: 22px;
+  font-weight: 480;
+}
+
+.jessica-name {
+  color: hsl(0, 29%, 92%);
+  text-align: center;
+  font-size: 21px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 12px;
+}
+
+.frontend-text {
+  color: rgb(193, 198, 202);
+  font-size: 11px;
+  font-weight: 450;
 }
 
 .social-pages {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 17%, 93%);
   text-align: center;
+  font-size: small;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+  width: 250px;
+  height: 35px;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 12px;
 }
